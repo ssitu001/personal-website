@@ -1,8 +1,20 @@
-import React, { Conponent } from 'react';
+import React, { Component } from 'react';
 
-export default () =>  {
+import NavBar from './Navbar';
 
+export default class App extends Component {
+  constructor() {
+    super()
 
-  return <h1>Hello World </h1>
-  
+  }
+
+  render() {
+    return (
+      <div>
+        <NavBar />
+        <div id="About" className="about"> Test </div>
+      </div>
+    )
+
+  }
 }
