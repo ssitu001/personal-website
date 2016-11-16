@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import NavBar from './Navbar';
+import Jumbotron from './Jumbo';
 
 export default class App extends Component {
   constructor() {
@@ -12,6 +13,7 @@ export default class App extends Component {
     return (
       <div>
         <NavBar />
+        <Jumbotron />
         <div id="About" className="about"> Test </div>
       </div>
     )
